@@ -1,0 +1,110 @@
+.regular-ele-width{
+    width: 20em;
+}
+.all-icons{
+	display: none;
+	background-color: #fff;
+    padding: 30px;
+    margin-top: 20px;
+    border: 1px dashed #8012f9;
+    max-width: 450px;
+}
+
+.more-icons i{
+	transition: all 0.2s ease-in-out;
+}
+
+.more-icons.close i {
+    transform: rotateZ(45deg);
+}
+
+.checklist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.checklist label {
+    display: inline-block;
+    border: 1px solid #8012f9;
+    color: #8012f9;
+}
+
+.checklist label span {
+	display: block;
+	padding: 10px;
+}
+
+.checklist li span:hover{
+	cursor: move;
+}
+
+.checklist li:not(:last-child) label {
+    margin-right: 10px;
+}
+
+#sortable li{
+	text-transform: capitalize;
+}
+
+.sortable-list label {
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+.sortable-list label span {
+	display: block;
+	padding: 10px;
+}
+
+.sortable-list label input[type=checkbox] {
+	display: none;
+}
+
+.sortable-list label input:checked + span {
+	background-color: #8012f9;
+	color: #ffffff;
+}
+
+.sortable-list li:not(:last-child) label {
+    margin-right: 10px;
+}
+
+.sortable-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*New CSS*/
+
+.psfw-lock-wrapper span{
+    color: #9e0303;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.psfw-need-pro{
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+label.wpx-number-group {
+    display: inline-flex;
+}
+
+label.wpx-number-group input {
+    width: 55px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+label.wpx-number-group span {
+    background-color: #8c8f94;
+    color: #fff;
+    padding:5px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
